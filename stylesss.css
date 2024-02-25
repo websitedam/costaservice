@@ -9,7 +9,6 @@ body {
 }
 
 /* Estilos para el encabezado */
-/* Estilos para el encabezado */
 header {
     background-color: #122531;
     color: #fff;
@@ -45,7 +44,7 @@ header {
 }
 
 /* Estilos para hacer responsive */
-@media (max-width: 768px) {
+@media (max-width: 500px) {
     .company-name {
         font-size: 40px; /* Reduce el tamaño del texto en pantallas más pequeñas */
     }
