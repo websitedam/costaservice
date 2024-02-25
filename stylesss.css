@@ -1,0 +1,271 @@
+ 
+/* Estilos globales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #122531;
+    color: #fff;
+    padding: 10px;
+    font-size: larger;
+    font-weight: 900;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    max-width: 160px;
+    height: auto;
+}
+
+.company-name {
+    margin-left: 20px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.svs {
+    color: #555;
+    font-weight: lighter;
+}
+
+/* Estilos para el contenido principal */
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.solu {
+    background-color: #ffffff;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+}
+
+.solu:hover {
+    transform: scale(1.05);
+}
+
+.solu h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #3498db;
+}
+
+.solu p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.cotain {
+    text-align: center;
+}
+
+.cotain h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.text-focus-in {
+    animation: text-focus-in 6s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@keyframes text-focus-in {
+    0% {
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+/* Estilos para los enlaces de servicios */
+.enlaces {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.enlaces div {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 6px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: 0.3s;
+    background-color: #f8f8f8;
+}
+
+.enlaces div:hover {
+    transform: translateY(-5px);
+}
+
+.enlaces a {
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 900;
+    font-size: 28px;
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.enlaces img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Estilos para el contenido adicional */
+.csl {
+    text-align: center;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px;
+    padding: 10px;
+    max-width: 70%;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    color: #333;
+}
+
+.container p {
+    color: #555;
+}
+
+.container form {
+    margin-top: 20px;
+}
+
+.container label {
+    display: block;
+    margin-bottom: 8px;
+   
+
+ color: #333;
+}
+
+.container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.container button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para preguntas frecuentes */
+.faq {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.faq h2 {
+    text-align: center;
+}
+
+.question {
+    margin-bottom: 15px;
+}
+
+.question-label {
+    cursor: pointer;
+    display: block;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+.answer {
+    padding: 10px;
+    display: none;
+}
+
+.toggle:checked + .question-label + .answer {
+    display: block;
+}
+
+/* Estilos para redes sociales */
+.redes-sociales {
+    text-align: center;
+    margin: 20px 0;
+    padding-top: 15px;
+}
+
+.redes-sociales a {
+    display: inline-block;
+    margin: 5px 10px;
+    color: #000000;
+    font-size: 24px;
+}
+
+.redes-sociales a:hover {
+    color: #00af0f;
+}
+ 
+ 
